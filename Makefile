@@ -2,4 +2,4 @@ all:
         gcc test.c
 
 check:
-	      ./a.out
+	./a.out
