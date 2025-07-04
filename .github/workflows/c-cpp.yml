@@ -9,11 +9,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v4
-    - name: configure   # 이 예제에서 필요 없으므로 삭제
-      run: ./configure  # 이 예제에서 필요 없으므로 삭제
+  
     - name: make
       run: make
     - name: make check
       run: make check
-    - name: make distcheck  # 이 예제에서 필요 없으므로 삭제
-      run: make distcheck   # 이 예제에서 필요 없으므로 삭제
+  
