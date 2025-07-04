@@ -1,5 +1,5 @@
 all:
-        gcc test.c
+	gcc test.c
 
 check:
 	./a.out
